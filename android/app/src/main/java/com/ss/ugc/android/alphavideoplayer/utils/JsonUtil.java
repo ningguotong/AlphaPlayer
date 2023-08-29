@@ -67,8 +67,14 @@ public class JsonUtil {
             return null;
         }
 
-        String configStr = new String(input);
+        String configStr = new String(input).replace('\t',' ').replace('\n', ' ').trim();
         Gson gson = new Gson();
-        return gson.fromJson(configStr, ConfigModel.class);
+        ConfigModel configModel = null;
+        try{
+            configModel = gson.fromJson(configStr, ConfigModel.class);
+        }catch (Exception exception){
+            Log.e(TAG, "fromJson: " + exception.toString());
+        }
+        return configModel;
     }
 }

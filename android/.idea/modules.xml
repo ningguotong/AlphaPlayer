@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AlphaVideoPlayer.iml" filepath="$PROJECT_DIR$/.idea/modules/AlphaVideoPlayer.iml" group="AlphaVideoPlayer" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alpha_player/alpha_player.iml" filepath="$PROJECT_DIR$/.idea/modules/alpha_player/alpha_player.iml" group="AlphaVideoPlayer/alpha_player" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="AlphaVideoPlayer/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AlphaVideoPlayer.iml" filepath="$PROJECT_DIR$/.idea/modules/AlphaVideoPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alpha_player/AlphaVideoPlayer.alpha_player.iml" filepath="$PROJECT_DIR$/.idea/modules/alpha_player/AlphaVideoPlayer.alpha_player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alpha_player/AlphaVideoPlayer.alpha_player.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/alpha_player/AlphaVideoPlayer.alpha_player.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alpha_player/AlphaVideoPlayer.alpha_player.main.iml" filepath="$PROJECT_DIR$/.idea/modules/alpha_player/AlphaVideoPlayer.alpha_player.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alpha_player/AlphaVideoPlayer.alpha_player.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/alpha_player/AlphaVideoPlayer.alpha_player.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AlphaVideoPlayer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AlphaVideoPlayer.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AlphaVideoPlayer.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AlphaVideoPlayer.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AlphaVideoPlayer.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AlphaVideoPlayer.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AlphaVideoPlayer.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AlphaVideoPlayer.app.unitTest.iml" />
     </modules>
   </component>
 </project>

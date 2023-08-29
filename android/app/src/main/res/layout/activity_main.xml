@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
+        android:tag = "1"
         android:id="@+id/attach_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
+        android:tag = "2"
         android:id="@+id/start_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,6 +28,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
+        android:tag = "3"
         android:id="@+id/detach_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

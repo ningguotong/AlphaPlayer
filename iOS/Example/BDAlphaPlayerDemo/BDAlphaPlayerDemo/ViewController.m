@@ -21,8 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    [super viewDidLoad];
+//    // Do any additional setup after loading the view.
+//    [super viewDidLoad];
     
     self.startBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 60, 60)];
     self.startBtn.backgroundColor = [UIColor orangeColor];

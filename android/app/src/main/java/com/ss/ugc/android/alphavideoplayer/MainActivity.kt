@@ -79,7 +79,10 @@ class MainActivity : AppCompatActivity() {
         val dirPath = basePath + File.separator + "alphaVideoGift" + File.separator
         val dirFile = File(dirPath)
         if (dirFile.exists() && dirFile.listFiles() != null && dirFile.listFiles().isNotEmpty()) {
-            return dirFile.listFiles()[0].absolutePath
+            val absolutePaths =  dirFile.listFiles()
+            val absolutePath =  absolutePaths[0].absolutePath
+//            return  absolutePath
+            return dirPath
         }
         return ""
     }
